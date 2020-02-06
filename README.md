@@ -1,4 +1,4 @@
-# hello-world
+# generalized-chopsticks-sequence
 
 Hi!  My name is Michael Schwalen and I am setting up a GitHub to share some work related to the Generalized Chopsticks Sequence.
 
