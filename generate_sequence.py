@@ -55,10 +55,10 @@ end = int(options.end)
 
 log('Processing until {0}'.format(end))
 
-for n in range(end + 1):
-    if n % 10 == 0 and n > max_calced:
+for n in range(max_calced + 1, end + 1):
+    if n % 10 == 0:
         log('n = {0}'.format(n))
-    if n > max_calced and is_seq_member(n):
+    if is_seq_member(n):
         with open(SEQ_FILE, 'a') as f:
             f.write(str(n) + '\n')
     with open(MAX_FILE, 'w') as f:
