@@ -4,7 +4,7 @@ Hi!  My name is Michael Schwalen and I am setting up a GitHub to share some work
 
 See this link for details on the Generalized Chopsticks Sequence: http://oeis.org/A302403.
 
-There are 2 documents in this repository:
+There are 2 documents in this repository relating to the sequence:
 1) GC Numbers.xlsx: Excel workbook that generates all GC numbers through 100 and shares a few insights.  Produced with AJ Robinson.
 2) generalized_chopsticks_sequence.R: R code that generates all GC numbers through 1,000.  Produced with AJ Robinson & code help from Angela Lin
 
