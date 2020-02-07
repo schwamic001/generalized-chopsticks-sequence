@@ -48,7 +48,7 @@ except FileNotFoundError:
         f.write(str(max_calced))
 
 parser = OptionParser()
-parser.add_option('--end', default=str(max_calced * 2))
+parser.add_option('--end', default=str(max_calced + 5000))
 (options, args) = parser.parse_args()
 
 end = int(options.end)
