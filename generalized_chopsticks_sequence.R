@@ -45,8 +45,8 @@ chopsticks <- function(n) {
   return(winner)
 }
 
-# Simulate n 1:1000
-simulation <- data.frame(n = 1:1000)
+# Simulate n 2:1000
+simulation <- data.frame(n = 2:1000)
 simulation$winner <- lapply(simulation$n,chopsticks)
 
 # Create sequence
