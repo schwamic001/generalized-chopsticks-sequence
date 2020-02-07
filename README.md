@@ -16,7 +16,9 @@ Michael/AJ: The two players of a game of Single-Handed Chopsticks.  Michael alwa
 GC Number: A number n is part of the GC sequence if all i from 1 to n-1 result in the same winner in a game of Single-Handed Chopsticks
 
 Consistency: A number n is consistent if it meets these two criteria:
+
     (1) Is a GC number
+    
     (2) The game always ends on the same turn for any i from 1 to n-1
 
 ## Documents
