@@ -17,13 +17,12 @@ GC Number: A number n is part of the GC sequence if all i from 1 to n-1 result i
 
 Consistency: A number n is consistent if it meets these two criteria:
 
-    (1) Is a GC number
-    
-    (2) The game always ends on the same turn for any i from 1 to n-1
+    1. Is a GC number
+    1. The game always ends on the same turn for any i from 1 to n-1
 
 ## Documents
 There are 2 documents in this repository relating to the sequence:
-1) GC Numbers.xlsx: Excel workbook that generates all GC numbers through 100 and shares a few insights.  Reference this document for background on the game of Single-Handed Chopsticks and the development of the sequence.  Produced by Michael Schwalen & AJ Robinson.
+1) GC Numbers.xlsx: Excel workbook that generates all GC numbers through 100 and shares a few insights.  Produced by Michael Schwalen & AJ Robinson.
 2) generalized_chopsticks_sequence.R: R code that generates all GC numbers through 1,000.  Produced by Michael Schwalen, AJ Robinson, & Angela Lin
 
 ## Other Notes
