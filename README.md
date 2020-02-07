@@ -18,7 +18,7 @@ GC Number: A number n is part of the GC sequence if all i from 1 to n-1 result i
 Consistency: A number n is consistent if it meets these two criteria:
 
     1. Is a GC number
-    1. The game always ends on the same turn for any i from 1 to n-1
+    2. The game always ends on the same turn for any i from 1 to n-1
 
 ## Documents
 There are 2 documents in this repository relating to the sequence:
