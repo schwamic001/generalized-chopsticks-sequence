@@ -4,11 +4,17 @@ See this link for details on the Generalized Chopsticks Sequence: http://oeis.or
 
 ## Definitions
 Chopsticks: https://en.wikipedia.org/wiki/Chopsticks_(hand_game)
+
 Single-Handed Chopsticks: A variant of the game where each player has a single hand.  This makes the game deterministic.
+
 Number of fingers on hand = n (in a conventional one-handed game, n = 5)
+
 Number of fingers up at start of game = i (in a conventional game, i = 1)
+
 Michael/AJ: The two players of a game of Single-Handed Chopsticks.  Michael always plays first.
+
 GC Number: A number n is part of the GC sequence if all i from 1 to n-1 result in the same winner in a game of Single-Handed Chopsticks
+
 Consistency: A number n is consistent if it meets these two criteria:
     (1) Is a GC number
     (2) The game always ends on the same turn for any i from 1 to n-1
