@@ -9,7 +9,7 @@ Single-Handed Chopsticks: A variant of the game where each player has a single h
 
 Number of fingers on hand = n (in a conventional one-handed game, n = 5).  Must be greater than or equal to 2.
 
-Number of fingers up at start of game = i (in a conventional game, i = 1)
+Number of fingers up at start of game = i (in a conventional game, i = 1).  Must be less than n.
 
 Michael/AJ: The two players of a game of Single-Handed Chopsticks.  Michael always plays first.
 
